@@ -1,0 +1,10 @@
+<h1>Bowls#index</h1>
+<p>Find me in app/views/bowls/index.html.erb</p>
+
+  <% @bowls.each do |bowl| %>
+    <p>id: <%=bowl.id%></p>
+    <p>size: <%=bowl.size%></p>
+    <p>color: <%=bowl.color%></p>
+    <p>material: <%=bowl.material%></p>
+    <hr>
+  <% end %>
